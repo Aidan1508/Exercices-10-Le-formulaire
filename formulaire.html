@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+</head>
+<body>
+    <form action="form.php" method="post"><!-- action=là où va l'entrée     method=la métode d'envoie -->
+        <label for="nom">Nomn</label> <!-- for=pour l'id et focus au clique -->
+        <input type="text" name="nom" id="nom">
+        <br><br>
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email"> <!-- type=type d'entrée    name=étiquette donnée à l'entrée    id=id donnée à l'entrée -->
+        <br><br>
+        <label for="message">Message</label>
+        <textarea name="message" id="message" cols="30" rows="10"></textarea>
+        <br><br>
+        <input type="submit" value="Envoyer"> <!-- value=ce qu'il fait marqué dans l'entrée -->
+    </form>
+</body>
+</html>
